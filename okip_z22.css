@@ -1,0 +1,15 @@
+p {
+    font-size: 22pt;
+}
+
+p#gruby_okip {
+    color: green;
+    font-size: 17pt;
+    font-weight: bold;
+}
+
+#dlawszyskich_okip {
+    color: yellow;
+    font-size: 10pt;
+    font-family: Arial;
+}

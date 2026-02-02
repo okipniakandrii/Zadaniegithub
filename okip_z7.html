@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+        <!-- Okipniak, 11.03.2025 -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Styl wpisany</title>
+</head>
+<body>
+<ol type="1">
+<li><h1>Na co pozwala styl lokalny?</h1>
+<p>Styl lokalny pozwala na formatowanie pojedynczego elementu HTML, niezależnie od innych elementów na stronie. Oznacza to, że możemy zastosować styl tylko do tego konkretnego elementu, używając atrybutu <code>style</code> w tagu HTML.</p>
+
+<li><h2>Składnia teoretyczna</h2>
+<table border="1" cellspacing="0" cellpadding="10">
+<tr>
+<td>
+<pre>
+&lt;p style="color: red; font-size: 16px;"&gt;
+Przykładowy tekst
+&lt;/p&gt;
+</pre>
+</td>
+</tr>
+</table>
+<p>Składnia stylu lokalnego polega na dodaniu atrybutu <code>style</code> bezpośrednio do elementu HTML. Wartości i cechy (właściwości) są zapisane w formie par: <code>cecha: wartość;</code>.</p>
+
+<li><h3>Co może być selektorem?</h3>
+<p>Selektor to część reguły CSS, która wskazuje, do jakiego elementu HTML mają zostać zastosowane określone style.</p>
+<ul>
+<li><strong>Selektor typu</strong> – odnosi się do wszystkich elementów danego typu, np. <code>p</code>, <code>h1</code>.</li>
+<li><strong>Selektor klasy</strong> – odnosi się do elementów z określoną klasą, np. <code>.nazwaKlasy</code>.</li>
+<li><strong>Selektor ID</strong> – odnosi się do elementu z określonym identyfikatorem, np. <code>#nazwaID</code>.</li>
+<li><strong>Selektor atrybutów</strong> – odnosi się do elementów posiadających określony atrybut, np. <code>input[type="text"]</code>.</li>
+</ul>
+
+<li><h4>Co wpisujemy jako "cechę"? Jakie jest znaczenie średników?</h4>
+<ul>
+<li><strong>Cechy (właściwości CSS)</strong> – określają wygląd elementu, np. <code>color</code>, <code>font-size</code>, <code>margin</code>, <code>background-color</code>.</li>
+<li><strong>Znaczenie średników</strong>:
+<ul>
+<li>Średnik (<code>;</code>) oddziela poszczególne deklaracje w stylach.</li>
+<li>Jest wymagany między właściwościami w stylu lokalnym.</li>
+<li>W ostatniej deklaracji może być pominięty, ale zaleca się jego stosowanie.</li>
+</ul>
+</li>
+</ul>
+
+<li><h5>Co wpisujemy jako "wartość" w deklaracji stylu?</h5>
+<ul>
+<li>Wartość to informacja przypisana do cechy, określająca jej działanie.</li>
+<li>Przykłady wartości:
+<ul>
+<li>Dla <code>color</code>: <code>red</code>, <code>#ff0000</code>, <code>rgb(255, 0, 0)</code>.</li>
+<li>Dla <code>font-size</code>: <code>16px</code>, <code>1.2em</code>, <code>120%</code>.</li>
+<li>Dla <code>margin</code>: <code>10px</code>, <code>auto</code>, <code>5% 10%</code>.</li>
+</ul>
+</li>
+</ul>
+<ol>
+        <!-- Okipniak, 11.03.2025 -->
+</body>
+</html>

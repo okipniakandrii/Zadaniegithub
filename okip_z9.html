@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<head>
+        <!-- Okipniak, 11.03.2025 -->
+<style>
+    li{
+        font-size:20px;
+    }
+</style>
+</head>
+<body>
+    <!-- Okipniak, 11.03.2025 -->
+<ol>
+<li><table border="1"><tr>
+    <td>
+        (...)<br>
+        <.link rel="Stylesheet" type="text/css" href="style.css" /><br>
+        (...)
+    </td>
+</tr></table></li>
+<li><b>Gdzie wstawiany jest styl zewnętrzny, jaki znacznik jest za to odpowiedzialny oraz
+    ile razy może on występować w dokumencie, jako podłączenie stylu CSS?</b></li><br>
+
+    Styl zewnętrzny wstawiany jest w sekcji <.head> dokumentu HTML za pomocą znacznika <.link>. Może on występować wielokrotnie, co pozwala na podłączenie wielu arkuszy stylów.<br>
+<li><b>Jak jest najprostsza forma wstawiania stylu zewnętrznego → otoczony ramką (może
+    być tabela jedno komórkowa?</b></li><br>
+    <table border="1"><tr>
+        <td>
+            <link rel="stylesheet" href="style.css">
+        </td>
+    </tr></table>
+<li><b>Ile arkuszy styli może być dołączanych do jednego dokumentu HTML oraz jaka zasad
+    musi być zachowana przy większej ilości dołączanych styli?</b></li><br>
+    Liczba dołączonych arkuszy styli do jednego dokumentu HTML nie jest ograniczona, ale ważne jest zachowanie hierarchii – arkusze są odczytywane od góry do dołu, a późniejsze mogą nadpisywać wcześniejsze.<br>
+<li><b>Co się dzieje w przypadku konfliktów? Przez konflikt rozumiemy, gdy te same style
+    są definiowane w różnych arkuszach styli podłączone do tego samego arkusza.</b></li><br>
+    W przypadku konfliktów decyduje tzw. kaskadowość i specyficzność selektorów. Jeśli te same style są zdefiniowane w różnych arkuszach, przeglądarka wybiera te o wyższym priorytecie, np. styl wewnętrzny nadpisuje zewnętrzny, a !important ma najwyższy priorytet.<br>
+<li><b>Jak są tworzone i edytowane pliki arkuszy z użyciem edytora tekstowego?</b></li><br>
+Tworzenie i edytowanie arkuszy stylów w edytorze tekstowym polega na zapisaniu pliku z rozszerzeniem .css, a następnie edycji kodu za pomocą zwykłego edytora, np. Notepad++ lub VS Code.
+<li><b>7. Jak są tworzone i edytowane pliki arkuszy z użyciem specjalnego edytora CSS? </b></li><br>
+Tworzenie i edytowanie arkuszy w specjalnym edytorze CSS odbywa się w programach takich jak Adobe Dreamweaver czy Visual Studio Code z wtyczkami do CSS, które oferują podgląd na żywo i automatyczne podpowiedzi.
+<li><b>Jakie rozszerzenie posiadają plik będący zewnętrznym arkuszem styli?</b></li><br>
+Plik będący zewnętrznym arkuszem stylów ma rozszerzenie .css.
+<li><b>Jakie są zalety zewnętrznego arkusza styli( dwie – z użyciem wyliczenia?</b></li><br>
+Zalety zewnętrznego arkusza stylów:<br>
+
+<br>Oddzielenie struktury od stylu – HTML pozostaje czysty, a style są przechowywane osobno.
+<br>Łatwość w utrzymaniu – zmiany w jednym pliku CSS wpływają na wiele stron, co ułatwia zarządzanie wyglądem witryny.
+<li><b>Uwagi na temat pisania w CSS</b></li><br>
+</ol>
+            <!-- Okipniak, 11.03.2025 -->
+</body>
+</html>

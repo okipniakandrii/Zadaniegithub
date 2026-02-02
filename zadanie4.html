@@ -1,0 +1,88 @@
+<!-- zadanie5.html -->
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+        <!-- Okipniak, 11.03.2025 -->
+    <meta http-equiv="content-type" content="text/html; charset=iso-8859-2">
+    <title>Podłączanie CSS - Łukowski</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        table {
+            width: 80%;
+            margin: 20px auto;
+            border-collapse: collapse;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>5 Sposobów Podłączania CSS do Strony WWW</h1>
+    
+    <table>
+        <tr>
+            <td><strong>1) Zewnętrzny arkusz stylów</strong></td>
+        </tr>
+        <tr>
+            <td>
+                <textarea rows="10" cols="70">
+&lt;link rel="stylesheet" type="text/css" href="style.css" /&gt;
+                </textarea>
+            </td>
+        </tr>
+        <tr>
+            <td><strong>2) <u>Styl lokalny</u> (liniowy)</strong></td>
+        </tr>
+        <tr>
+            <td>
+                <textarea rows="10" cols="70">
+&lt;element style="cecha1: wartość1; cecha2: wartość2;"&gt;...&lt;/element&gt;
+                </textarea>
+            </td>
+        </tr>
+        <tr>
+            <td><strong>3) Wewnętrzny arkusz stylów</strong></td>
+        </tr>
+        <tr>
+            <td>
+                <textarea rows="10" cols="70">
+&lt;style type="text/css"&gt;
+    selektor1 { cecha: wartość; }
+    selektor2 { cecha: wartość; }
+&lt;/style&gt;
+                </textarea>
+            </td>
+        </tr>
+        <tr>
+            <td><strong>4) Alternatywny arkusz stylów</strong></td>
+        </tr>
+        <tr>
+            <td>
+                <textarea rows="10" cols="70">
+&lt;link rel="alternate stylesheet" type="text/css" href="style1.css" title="Nazwa 1" /&gt;
+&lt;link rel="alternate stylesheet" type="text/css" href="style2.css" title="Nazwa 2" /&gt;
+                </textarea>
+            </td>
+        </tr>
+        <tr>
+            <td><strong>5) Import arkusza stylów</strong></td>
+        </tr>
+        <tr>
+            <td>
+                <textarea rows="10" cols="70">
+&lt;style type="text/css"&gt;
+    @import url("style.css");
+&lt;/style&gt;
+                </textarea>
+            </td>
+        </tr>
+    </table>
+        <!-- Okipniak, 11.03.2025 -->
+</body>
+</html>
+
